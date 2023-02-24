@@ -25,11 +25,14 @@ zkp_dlog.py & zkp_dlog_fiat_shamir.py
 <strong>Exercise 1</strong>: Explain why you need to generate and save a “secret” value.
 
 <Strong>A</Strong>:
+A secret is used to 1) generate a public key as identity of users, 2) sign messages.
 
 <strong>Exercise 2</strong>: Write out a plain-English explanation of what statement is being proven in ZK.
 
 <Strong>A</Strong>:
+One of the group member signed the message is being proven.
 
 <strong>Exercise 2</strong>: Log into the same zkmessage account, from a different browser or computer. Explain why zkmessage can’t just use a simple “username/password” system like most social apps.
 
 <Strong>A</Strong>:
+zkmessage do not store username or password in the server.
